@@ -1,0 +1,14 @@
+name: Mr Raj
+
+on: 
+ push:
+  branches: [ main ]
+
+jobs: 
+  Demo:
+    runs-on: Ubuntu-latest
+
+  steps:
+   -name: Good morning
+    run: echo " Good morning, Raj"
+    
