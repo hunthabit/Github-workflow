@@ -7,8 +7,8 @@ on:
 jobs: 
   Demo:
     runs-on: Ubuntu-latest
-
-  steps:
-   -name: Good morning
-    run: echo " Good morning, Raj"
+    
+    steps:
+       - name: Good morning
+         run: echo "Good morning, Raj"
     
